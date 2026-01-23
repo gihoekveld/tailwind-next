@@ -1,5 +1,6 @@
 @import 'tailwindcss';
 @theme {
   --color-giselle: #8257e6;
-  --grid-template-columns-app: minmax(18rem, 20rem);
+  --grid-template-columns-app: minmax(18rem, 20rem) 1fr;
+  --grid-template-columns-profile: max-content 1fr min-content;
 }
