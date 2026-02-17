@@ -14,15 +14,15 @@ export function Profile() {
       />
 
       <div className="flex flex-col truncate">
-        <span className="text-sm font-semibold text-zinc-700">
+        <span className="text-sm font-semibold text-zinc-700 dark:text-zinc-100">
           Giselle Hoekveld
         </span>
-        <span className="truncate text-sm text-zinc-500">
+        <span className="truncate text-sm text-zinc-500 dark:text-zinc-400">
           gisellehoekveld.contato@gmail.com
         </span>
       </div>
       <Button type="button" variant="ghost">
-        <LogOut className="h-5 w-5 text-zinc-500" />
+        <LogOut className="h-5 w-5" />
       </Button>
     </div>
   )

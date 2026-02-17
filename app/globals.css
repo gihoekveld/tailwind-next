@@ -1,5 +1,7 @@
 @import 'tailwindcss';
 
+/* @custom-variant dark (&:where(.dark, .dark *)); */
+
 @keyframes slide-down-and-fade {
   from {
     opacity: 0;
